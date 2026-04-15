@@ -1,4 +1,4 @@
-# @yourorg/meta-ads-mcp
+# @discoverable/meta-ads-mcp
 
 Meta Ads MCP server for Claude. Read/write access to campaigns, ad sets, ads, creatives, audiences, insights, and lead forms.
 
@@ -20,7 +20,7 @@ Meta Ads MCP server for Claude. Read/write access to campaigns, ad sets, ads, cr
   "mcpServers": {
     "meta-ads": {
       "command": "npx",
-      "args": ["-y", "@yourorg/meta-ads-mcp"],
+      "args": ["-y", "@discoverable/meta-ads-mcp"],
       "env": { "META_ADS_MCP_APP_ID": "YOUR_APP_ID" }
     }
   }
@@ -30,7 +30,7 @@ Meta Ads MCP server for Claude. Read/write access to campaigns, ad sets, ads, cr
 **2. Authenticate** — once, from a terminal:
 
 ```bash
-META_ADS_MCP_APP_ID=YOUR_APP_ID npx @yourorg/meta-ads-mcp auth
+META_ADS_MCP_APP_ID=YOUR_APP_ID npx @discoverable/meta-ads-mcp auth
 ```
 
 **3. Pick a default ad account** — from Claude, ask it to run `list_ad_accounts`, then `set_default_account`.

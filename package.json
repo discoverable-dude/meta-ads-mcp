@@ -1,5 +1,5 @@
 {
-  "name": "@yourorg/meta-ads-mcp",
+  "name": "@discoverable/meta-ads-mcp",
   "version": "0.1.0",
   "type": "module",
   "bin": {
